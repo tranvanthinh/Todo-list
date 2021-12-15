@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: rgb(241, 187, 225);
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.app {
+    width: 30%;
+    height: 500px;
+    margin: 100px auto;
+    background: rgb(15, 185, 236);
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.app h1 {
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.app .container {
+    display: flex;
+    position: relative;
+}
+
+.container input {
+    border: none;
+    font-size: 20px;
+    height: 40px;
+    width: 80%;
+    margin: 15px 0px 10px 0px;
+    border-radius: 4px;
+    outline: none;
+}
+.container .btn {
+    width: 50px;
+    height: 40px;
+    background-color: cornsilk;
+    border: none;
+    border-radius: 4px;
+    margin: 15px 0px 0px 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.app .btn:hover {
+    opacity: .6;
+}
+
+#list-task {
+    width: 100%;
+}
+#list-task h4 {
+    margin-top: 10px;
+}
+#result p {
+    margin-top: 10px;
+}
+#list-task ul li {
+    display: flex;
+    background: #f1f1f1;
+    line-height: 35px;
+    padding-left: 5px;
+    height: 45px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+#list-task ul li div {
+    width: 80%;
+    margin-top: 5px;
+}
+#list-task ul li a {
+    display: block; 
+    color: white;
+    font-weight: bold;
+}
+#list-task ul li a {
+    text-decoration: none;
+    display: block;
+    width: 60px;
+    background-color: rgb(9, 252, 179);
+    color: red;
+    padding: 5px;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 500;
+}
+#list-task ul a:nth-of-type(1){
+    color: blue;
+    background-color: rgb(166, 243, 22);
+}
+#list-task ul a:nth-of-type(1):hover {
+    background-color: rgb(39, 16, 248);
+    color: white;
+}
+#list-task ul a:nth-of-type(2):hover {
+    background-color: red;
+    color: white;
+}
+/* #list-task ul li:hover a {
+    display: block;
+} */
